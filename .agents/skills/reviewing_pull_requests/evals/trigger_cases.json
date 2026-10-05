@@ -1,0 +1,47 @@
+[
+    {
+        "id": "trigger_positive_01",
+        "input": "Review PR #2 and tell me if it is ready for human review.",
+        "expected_trigger": true
+    },
+    {
+        "id": "trigger_positive_02",
+        "input": "Check this pull request against the spec and tests.",
+        "expected_trigger": true
+    },
+    {
+        "id": "trigger_positive_03",
+        "input": "Perform a PR readiness review for the current branch.",
+        "expected_trigger": true
+    },
+    {
+        "id": "trigger_positive_04",
+        "input": "Determine whether this PR satisfies its acceptance criteria and has enough test coverage for human review.",
+        "expected_trigger": true
+    },
+    {
+        "id": "trigger_negative_01",
+        "input": "Implement issue #2.",
+        "expected_trigger": false
+    },
+    {
+        "id": "trigger_negative_02",
+        "input": "Merge PR #4.",
+        "expected_trigger": false
+    },
+    {
+        "id": "trigger_negative_03",
+        "input": "Explain what a pull request is.",
+        "expected_trigger": false
+    },
+    {
+        "id": "trigger_negative_04",
+        "input": "Approve PR #4.",
+        "expected_trigger": false
+    },
+    {
+        "id": "trigger_negative_05",
+        "input": "Comment your findings on PR #4.",
+        "expected_trigger": false
+    }
+]
