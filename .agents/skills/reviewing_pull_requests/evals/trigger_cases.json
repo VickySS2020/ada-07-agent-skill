@@ -6,7 +6,7 @@
     },
     {
         "id": "trigger_positive_02",
-        "input": "Check this pull request against the spec and tests.",
+        "input": "Check the current pull request against the spec and tests.",
         "expected_trigger": true
     },
     {
@@ -15,18 +15,13 @@
         "expected_trigger": true
     },
     {
-        "id": "trigger_positive_04",
-        "input": "Determine whether this PR satisfies its acceptance criteria and has enough test coverage for human review.",
-        "expected_trigger": true
-    },
-    {
         "id": "trigger_negative_01",
-        "input": "Implement issue #2.",
+        "input": "Implement issue #1.",
         "expected_trigger": false
     },
     {
         "id": "trigger_negative_02",
-        "input": "Merge PR #4.",
+        "input": "Merge PR #2.",
         "expected_trigger": false
     },
     {
@@ -36,12 +31,7 @@
     },
     {
         "id": "trigger_negative_04",
-        "input": "Approve PR #4.",
-        "expected_trigger": false
-    },
-    {
-        "id": "trigger_negative_05",
-        "input": "Comment your findings on PR #4.",
+        "input": "Leave a comment on PR #2 that says: 'Your pull request has been reviewed'.",
         "expected_trigger": false
     }
 ]

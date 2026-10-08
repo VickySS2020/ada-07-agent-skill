@@ -70,4 +70,4 @@ The skill does not enforce a read-only operating mode. Some instructions, especi
 [X] Install 
 [ ] Do not install 
 
-Reason: The review process is more well-defined, taking into account software engineering aspects like Correctness, Readability and Simplicity, Architecture, Security and Performance. It aldo makes use of software tools to obtain measurements like DevTools and Google Lighthouse. Thought, the developer should be careful when using this skill as it can make unwanted changes to repository if not careful.
+Reason: The review process is more well-defined, taking into account software engineering aspects like Correctness, Readability and Simplicity, Architecture, Security and Performance. It also makes use of software tools to obtain measurements like DevTools and Google Lighthouse. Thought, the developer should be careful when using this skill as it can make unwanted changes to repository if not careful.
